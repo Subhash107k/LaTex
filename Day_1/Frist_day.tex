@@ -1,0 +1,64 @@
+\documentclass[12pt,a4paper]{article}
+
+% Math
+\usepackage{amsmath,amssymb}
+
+% Graphics
+\usepackage{graphicx}
+
+% Tables
+\usepackage{booktabs}
+
+% Hyperlinks
+\usepackage[colorlinks=true]{hyperref}
+
+\title{My First LaTeX Document}
+\author{Subhash}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\section{Introduction}
+
+Hello, this is my first LaTeX document.
+
+\section{Mathematics}
+
+The set of real numbers:
+
+\[
+\mathbb{R}
+\]
+
+Quadratic formula:
+
+\[
+x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+\]
+
+\section{Table Example}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lc}
+\toprule
+Name & Age \\
+\midrule
+Subhash & 20 \\
+Alex & 21 \\
+\bottomrule
+\end{tabular}
+\caption{Simple Table}
+\end{table}
+
+\section{Hyperlink Example}
+
+Visit the LaTeX website:
+
+\href{https://www.latex-project.org}{LaTeX Project}
+
+\end{document}
