@@ -1,0 +1,26 @@
+# LaTeX output files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.log
+*.nav
+*.out
+*.pdf
+*.snm
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
+*.maf
+*.mtc*
+*.run.xml
+
+# Mac files
+.DS_Store
+
+# Editor backups
+*~
+*.swp
+*.swo
